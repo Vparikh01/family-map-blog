@@ -1,25 +1,35 @@
-My Map Blog – React + Vite
-This is a minimal and fast setup using React with Vite, ideal for building interactive web applications. This project powers a map-based blog interface, featuring location pins, blog entries, and interactive UI components.
+# 🌍 My Map Blog – React + Vite
 
-Features
-🗺️ Map-based interface for visual storytelling
+This is a minimal and fast setup using **React** with **Vite**, ideal for building interactive web applications.  
+This project powers a **map-based blog interface**, featuring location pins, blog entries, and interactive UI components.
 
-⚡ Built with Vite for fast development and HMR
+---
 
-⚛️ React for declarative UI components
+## ✨ Features
 
-Plugins
-Currently, two official plugins are available for React support in Vite:
+- 🗺️ **Map-based interface** for visual storytelling  
+- ⚡ **Vite-powered** for fast development and HMR (Hot Module Replacement)  
+- ⚛️ **React** for building modern, declarative UIs  
 
-@vitejs/plugin-react – uses Babel for Fast Refresh
+---
 
-@vitejs/plugin-react-swc – uses SWC for even faster builds
+## 🔌 Plugins
 
-Expanding the ESLint Configuration
-This template includes a basic ESLint setup. For production-grade apps, we recommend:
+React support in Vite is provided through two official plugins:
 
-Using TypeScript to catch more bugs at compile time
+- [`@vitejs/plugin-react`](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md)  
+  Uses **Babel** for Fast Refresh
 
-Enabling type-aware lint rules via typescript-eslint
+- [`@vitejs/plugin-react-swc`](https://github.com/vitejs/vite-plugin-react-swc)  
+  Uses **SWC** for even faster builds
 
-Check out the Vite React + TypeScript template to integrate TypeScript easily.
+---
+
+## 🧹 Expanding the ESLint Configuration
+
+This project includes a basic ESLint setup. For production-grade applications, we recommend:
+
+- ✅ Using **TypeScript** to catch bugs at compile time  
+- 🔍 Enabling **type-aware lint rules** via [`typescript-eslint`](https://typescript-eslint.io)
+
+👉 Check out the [Vite React + TypeScript template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to get started with TypeScript.
