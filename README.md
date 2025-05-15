@@ -1,12 +1,25 @@
-# React + Vite
+My Map Blog – React + Vite
+This is a minimal and fast setup using React with Vite, ideal for building interactive web applications. This project powers a map-based blog interface, featuring location pins, blog entries, and interactive UI components.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+🗺️ Map-based interface for visual storytelling
 
-Currently, two official plugins are available:
+⚡ Built with Vite for fast development and HMR
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+⚛️ React for declarative UI components
 
-## Expanding the ESLint configuration
+Plugins
+Currently, two official plugins are available for React support in Vite:
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+@vitejs/plugin-react – uses Babel for Fast Refresh
+
+@vitejs/plugin-react-swc – uses SWC for even faster builds
+
+Expanding the ESLint Configuration
+This template includes a basic ESLint setup. For production-grade apps, we recommend:
+
+Using TypeScript to catch more bugs at compile time
+
+Enabling type-aware lint rules via typescript-eslint
+
+Check out the Vite React + TypeScript template to integrate TypeScript easily.
